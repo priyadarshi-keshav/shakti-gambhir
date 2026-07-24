@@ -32,9 +32,9 @@ export const events = [
     tag: "Impact",
   },
   {
-    title: "VIP Engagements",
-    subtitle: "Premium hosting with Bless VIP Events & city celebrations",
-    image: u("photo-1429962714451-bb934ecdc4ec"),
-    tag: "VIP",
+    title: "City Stage Performances",
+    subtitle: "Large-stage sets and city celebrations across Kolkata",
+    image: u("photo-1492684223066-81342ee5ff30"),
+    tag: "Stage",
   },
 ] as const;

@@ -27,7 +27,6 @@ export const collaborations = [
   "The Stadel (Aqua Zumba)",
   "Kolkata wellness events",
   "Community fitness festivals",
-  "Bless VIP Events",
   "Bop & Blink",
 ] as const;
 

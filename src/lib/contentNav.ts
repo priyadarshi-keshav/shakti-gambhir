@@ -12,6 +12,6 @@ export const aboutHighlights = [
   "10+ years as a Zumba fitness instructor",
   "Featured in Times of India & IndulgExpress",
   "Aqua Zumba collaborations at The Stadel",
-  "VIP & community event hosting",
+  "Stage shows & community event hosting",
   "Kids freestyle programs at YMC Studio",
 ] as const;

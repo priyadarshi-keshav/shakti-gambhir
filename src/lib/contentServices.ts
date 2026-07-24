@@ -50,12 +50,12 @@ export const services = [
     image: u("photo-1552664730-d307ca884978"),
   },
   {
-    id: "vip",
-    title: "VIP Events",
+    id: "stage-shows",
+    title: "Stage Shows",
     description:
-      "Celebrity, premium fitness, community, and large-stage performances with unforgettable energy.",
-    points: ["Celebrity events", "Premium fitness events", "Community events", "Stage shows"],
-    image: u("photo-1470229722913-7c0e2dbbafd3"),
+      "Large-stage performances and community celebrations choreographed for unforgettable energy.",
+    points: ["Stage performances", "Community events", "Premium fitness events"],
+    image: u("photo-1492684223066-81342ee5ff30"),
   },
   {
     id: "workshops",
@@ -63,6 +63,6 @@ export const services = [
     description:
       "Fitness workshops, wellness festivals, and community engagements that leave people glowing.",
     points: ["Fitness workshops", "Community engagement", "Wellness festivals"],
-    image: u("photo-1492684223066-81342ee5ff30"),
+    image: u("photo-1517836357463-d25dfeac3438"),
   },
 ] as const;

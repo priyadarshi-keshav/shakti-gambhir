@@ -12,7 +12,7 @@ export const galleryItems = [
   { src: u("photo-1552664730-d307ca884978"), alt: "Corporate team wellness session", category: "Corporate Events" },
   { src: u("photo-1519741497674-611481863552"), alt: "Wedding choreography celebration", category: "Wedding Choreography" },
   { src: u("photo-1492684223066-81342ee5ff30"), alt: "Stage show lighting and performance", category: "Stage Shows" },
-  { src: u("photo-1470229722913-7c0e2dbbafd3"), alt: "VIP event and live entertainment", category: "VIP Events" },
+  { src: u("photo-1470229722913-7c0e2dbbafd3"), alt: "Live stage performance and audience energy", category: "Stage Shows" },
 ] as const;
 
 export const galleryCategories = [
@@ -24,5 +24,4 @@ export const galleryCategories = [
   "Corporate Events",
   "Wedding Choreography",
   "Stage Shows",
-  "VIP Events",
 ] as const;

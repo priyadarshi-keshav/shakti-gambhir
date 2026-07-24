@@ -41,10 +41,10 @@ export const instagramHighlights = [
     image: u("photo-1533174072545-7a4b6ad7a6c3"),
   },
   {
-    title: "Stage & VIP",
-    caption: "Collaborations with Bless VIP Events",
+    title: "Stage Moments",
+    caption: "Large-stage performances across Kolkata",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1470229722913-7c0e2dbbafd3"),
+    image: u("photo-1492684223066-81342ee5ff30"),
   },
   {
     title: "Dance Fitness",
@@ -67,7 +67,7 @@ export const serviceOptions = [
   "Kids Dance Programs",
   "Wedding Choreography",
   "Corporate Wellness",
-  "VIP Events",
+  "Stage Shows",
   "Workshops",
   "Other",
 ] as const;
