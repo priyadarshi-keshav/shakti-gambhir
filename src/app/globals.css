@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #f7f7f5;
+  --muted: #a3a29c;
+  --card: #111111;
+  --border: rgba(255, 255, 255, 0.1);
+  --yellow: #f5e000;
+  --yellow-soft: #ffe84d;
+  --purple: #9b4dff;
+  --purple-deep: #6b21a8;
+  --glow: rgba(245, 224, 0, 0.35);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-yellow: var(--yellow);
+  --color-yellow-soft: var(--yellow-soft);
+  --color-purple: var(--purple);
+  --color-purple-deep: var(--purple-deep);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--yellow) 70%, white);
+  color: #111;
+}
+
+.font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+.bg-noise {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(155, 77, 255, 0.28), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 10%, rgba(245, 224, 0, 0.18), transparent 50%),
+    linear-gradient(180deg, #050505 0%, #0a0a0a 100%);
+}
+
+.bg-grid {
+  background-size: 48px 48px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #fff 10%, #f5e000 45%, #c084fc 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.neon-ring {
+  box-shadow:
+    0 0 0 1px rgba(245, 224, 0, 0.35),
+    0 0 40px rgba(155, 77, 255, 0.25);
+}
+
+.section-pad {
+  @apply px-5 py-20 sm:px-8 md:py-28 lg:px-12;
+}
+
+.container-max {
+  @apply mx-auto w-full max-w-6xl;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-pulse-glow {
+    animation: none;
+  }
+}
