@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/shakti/shakti-portrait.jpg",
-        width: 931,
-        height: 1024,
+        width: 800,
+        height: 880,
         alt: "Shakti Gambhir — Zumba instructor and dance fitness coach in Kolkata",
       },
     ],
