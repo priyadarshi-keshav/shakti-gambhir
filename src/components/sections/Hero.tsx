@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, PhoneCall, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { remoteImages } from "@/lib/content";
 
 const words = ["Move.", "Dance.", "Transform."];
 
@@ -15,7 +16,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/hero/hero-bg.jpg"
+          src={remoteImages.heroBg}
           alt="Shakti Gambhir leading a high-energy Zumba dance fitness class"
           fill
           priority
