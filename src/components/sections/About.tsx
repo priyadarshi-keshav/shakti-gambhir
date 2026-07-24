@@ -76,8 +76,8 @@ export function About() {
               <strong className="text-foreground">Times of India</strong> and{" "}
               <strong className="text-foreground">IndulgExpress&apos; SteppinOut</strong>, plus
               collaborations like Aqua Zumba at{" "}
-              <strong className="text-foreground">The Stadel</strong> and premium event hosting
-              with <strong className="text-foreground">Bless VIP Events</strong>.
+              <strong className="text-foreground">The Stadel</strong> and stage performances at
+              community wellness festivals across the city.
             </p>
           </div>
 

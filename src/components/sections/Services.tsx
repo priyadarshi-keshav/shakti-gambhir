@@ -17,7 +17,7 @@ export function Services() {
             Services built for <span className="text-gradient">every kind of mover</span>
           </h2>
           <p className="mt-4 text-sm text-muted sm:text-base">
-            From first-time Zumba beginners to VIP stage performances — every session is designed
+            From first-time Zumba beginners to large stage performances — every session is designed
             with energy, precision, and heart.
           </p>
         </div>
