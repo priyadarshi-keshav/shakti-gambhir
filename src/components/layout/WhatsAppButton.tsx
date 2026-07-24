@@ -2,19 +2,11 @@
 
 import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import { siteConfig } from "@/lib/site";
-
-function buildWhatsAppUrl(rawNumber: string) {
-  const digits = rawNumber.replace(/[^\d]/g, "");
-  const message = encodeURIComponent(
-    `Hi Shakti! I'd like to know more about your classes.`,
-  );
-  return `https://wa.me/${digits}?text=${message}`;
-}
+import { buildWhatsAppUrl, siteConfig } from "@/lib/site";
 
 export function WhatsAppButton() {
   const hasWhatsapp = Boolean(siteConfig.whatsapp);
-  const href = hasWhatsapp ? buildWhatsAppUrl(siteConfig.whatsapp) : siteConfig.instagram;
+  const href = hasWhatsapp ? buildWhatsAppUrl() : siteConfig.instagram;
   const label = hasWhatsapp
     ? "Chat with Shakti Gambhir on WhatsApp"
     : "Message Shakti Gambhir on Instagram";

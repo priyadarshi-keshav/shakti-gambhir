@@ -12,8 +12,8 @@ export const siteConfig = {
   instagramHandle: "@ghambir",
   facebook: "",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "book@shaktigambhir.com",
-  phone: process.env.NEXT_PUBLIC_PHONE ?? "",
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP ?? "",
+  phone: process.env.NEXT_PUBLIC_PHONE ?? "+919836924593",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP ?? "919836924593",
   keywords: [
     "Shakti Gambhir",
     "Shakti Ghambir",
@@ -27,3 +27,11 @@ export const siteConfig = {
     "Aqua Zumba The Stadel",
   ],
 } as const;
+
+export function buildWhatsAppUrl(
+  rawNumber: string = siteConfig.whatsapp,
+  message = "Hi Shakti! I'd like to know more about your classes.",
+) {
+  const digits = rawNumber.replace(/[^\d]/g, "");
+  return `https://wa.me/${digits}?text=${encodeURIComponent(message)}`;
+}

@@ -5,10 +5,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import { z } from "zod";
-import { CheckCircle2, Mail, MapPin, XCircle } from "lucide-react";
+import { CheckCircle2, Mail, MapPin, MessageCircle, XCircle } from "lucide-react";
 import { InstagramIcon } from "@/components/icons/social-icons";
 import { locations, serviceOptions } from "@/lib/content";
-import { siteConfig } from "@/lib/site";
+import { buildWhatsAppUrl, siteConfig } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Textarea } from "@/components/ui/form-fields";
 
@@ -100,6 +100,18 @@ export function Contact() {
               <Mail className="h-4 w-4 text-yellow" aria-hidden="true" />
               {siteConfig.email}
             </a>
+
+            {siteConfig.whatsapp ? (
+              <a
+                href={buildWhatsAppUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-xl border border-border bg-card px-4 py-3.5 text-sm text-foreground transition hover:border-yellow/50"
+              >
+                <MessageCircle className="h-4 w-4 text-yellow" aria-hidden="true" />
+                WhatsApp · +91 98369 24593
+              </a>
+            ) : null}
 
             {locations.map((location) => (
               <div

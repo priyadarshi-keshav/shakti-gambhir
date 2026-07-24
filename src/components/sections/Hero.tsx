@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, PhoneCall, Sparkles } from "lucide-react";
+import { ArrowRight, MessageCircle, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { buildWhatsAppUrl, siteConfig } from "@/lib/site";
 
 const words = ["Move.", "Dance.", "Transform."];
 
@@ -89,9 +90,16 @@ export function Hero() {
               <a href="#locations">Join Classes</a>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="#contact">
-                <PhoneCall className="h-4 w-4" aria-hidden="true" />
-                Contact Now
+              <a
+                href={
+                  siteConfig.whatsapp ? buildWhatsAppUrl() : "#contact"
+                }
+                {...(siteConfig.whatsapp
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+              >
+                <MessageCircle className="h-4 w-4" aria-hidden="true" />
+                WhatsApp
               </a>
             </Button>
           </motion.div>
