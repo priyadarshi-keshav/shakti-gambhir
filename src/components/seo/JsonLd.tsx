@@ -1,13 +1,15 @@
-import { remoteImages, services, serviceOptions } from "@/lib/content";
+import { services, serviceOptions } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
 export function JsonLd() {
+  const portraitUrl = `${siteConfig.url}/images/shakti/shakti-portrait.jpg`;
+
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
     name: siteConfig.name,
     url: siteConfig.url,
-    image: remoteImages.portrait,
+    image: portraitUrl,
     jobTitle: "Zumba Instructor, Pilates Coach & Dance Choreographer",
     description: siteConfig.description,
     email: siteConfig.email,
@@ -25,7 +27,7 @@ export function JsonLd() {
     "@type": "LocalBusiness",
     "@id": `${siteConfig.url}/#business`,
     name: siteConfig.name,
-    image: remoteImages.heroBg,
+    image: portraitUrl,
     url: siteConfig.url,
     description: siteConfig.description,
     email: siteConfig.email,

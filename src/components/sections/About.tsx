@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle2, Quote } from "lucide-react";
-import { aboutHighlights, remoteImages } from "@/lib/content";
+import { aboutHighlights } from "@/lib/content";
 
 export function About() {
   return (
@@ -22,11 +22,16 @@ export function About() {
         >
           <div className="neon-ring relative aspect-[4/5] overflow-hidden rounded-[2rem]">
             <Image
-              src={remoteImages.portrait}
-              alt="Portrait of Shakti Gambhir, Zumba instructor and dance choreographer"
+              src="/images/shakti/shakti-portrait.jpg"
+              alt="Shakti Gambhir — Zumba instructor and dance choreographer in Kolkata"
               fill
               sizes="(min-width: 1024px) 420px, 90vw"
-              className="object-cover"
+              className="object-cover object-[center_15%]"
+              priority
+            />
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"
             />
           </div>
           <div

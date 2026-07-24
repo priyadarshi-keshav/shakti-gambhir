@@ -4,7 +4,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { remoteImages } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -44,10 +43,10 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: remoteImages.heroBg,
-        width: 2400,
-        height: 1600,
-        alt: "Shakti Gambhir — Zumba and dance fitness in Kolkata",
+        url: "/images/shakti/shakti-portrait.jpg",
+        width: 931,
+        height: 1024,
+        alt: "Shakti Gambhir — Zumba instructor and dance fitness coach in Kolkata",
       },
     ],
   },
@@ -55,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: [remoteImages.heroBg],
+    images: ["/images/shakti/shakti-portrait.jpg"],
   },
   robots: {
     index: true,
