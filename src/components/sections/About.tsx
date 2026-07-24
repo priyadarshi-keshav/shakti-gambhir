@@ -51,21 +51,21 @@ export function About() {
 
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted sm:text-base">
             <p>
-              Shakti Gambhir stepped out of her comfort zone in Kolkata and travelled to Kathmandu
+              Shakti Gambhir stepped out of his comfort zone in Kolkata and travelled to Kathmandu
               to train intensively in Zumba — a leap of faith that set the course for a decade-long
-              career in dance fitness. She went on to graduate from the legendary{" "}
+              career in dance fitness. He went on to graduate from the legendary{" "}
               <strong className="text-foreground">Broadway Dance Center in New York</strong>,
-              sharpening her craft alongside some of the best choreographers in the world.
+              sharpening his craft alongside some of the best choreographers in the world.
             </p>
             <p>
               For <strong className="text-foreground">10+ years</strong>, Shakti has led Zumba,
               Pilates, and dance fitness sessions across Kolkata — building a community that shows
-              up for the music as much as the movement. When the pandemic closed studio doors, she
-              took her classes online, keeping her community moving, motivated, and connected
+              up for the music as much as the movement. When the pandemic closed studio doors, he
+              took his classes online, keeping his community moving, motivated, and connected
               through uncertain times.
             </p>
             <p>
-              Her philosophy is simple: dance is an extension of{" "}
+              His philosophy is simple: dance is an extension of{" "}
               <strong className="text-foreground">love, respect, and community</strong> — not just
               another workout. That energy has earned coverage in the{" "}
               <strong className="text-foreground">Times of India</strong> and{" "}
