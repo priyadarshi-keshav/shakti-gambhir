@@ -2,7 +2,8 @@
 
 World-class portfolio site for **Shakti Gambhir** (also known as Shakti Ghambir) — Zumba instructor, Pilates coach, dance fitness trainer, choreographer, and event host based in Kolkata.
 
-**Live:** configured on Vercel after deploy  
+**Live:** [https://shakti-gambhir-pi.vercel.app](https://shakti-gambhir-pi.vercel.app)  
+**GitHub:** [github.com/priyadarshi-keshav/shakti-gambhir](https://github.com/priyadarshi-keshav/shakti-gambhir)  
 **Instagram:** [instagram.com/ghambir](https://www.instagram.com/ghambir/)
 
 ## Stack

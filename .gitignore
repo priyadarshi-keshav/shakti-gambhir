@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local deploy artifacts
+.deploy-*.json
+.mcp-*.json
+.sg-*.json
+.vercel-*.json
+.vercel-mcp-parts/
+
+# deploy/mcp scratch
+.deploy-*.cjs
+.full-deploy-args.json
+deploy-core.json
+mcp-deploy-*.json
+mcp-for-tool.*
+sg-deploy.json
+vercel-mcp-args.json
+scripts/mcp-deploy.mjs
