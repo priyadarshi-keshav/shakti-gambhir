@@ -1,4 +1,4 @@
-import { services, serviceOptions } from "@/lib/content";
+import { remoteImages, services, serviceOptions } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
 export function JsonLd() {
@@ -7,7 +7,7 @@ export function JsonLd() {
     "@type": "Person",
     name: siteConfig.name,
     url: siteConfig.url,
-    image: `${siteConfig.url}/images/hero/portrait.jpg`,
+    image: remoteImages.portrait,
     jobTitle: "Zumba Instructor, Pilates Coach & Dance Choreographer",
     description: siteConfig.description,
     email: siteConfig.email,
@@ -25,7 +25,7 @@ export function JsonLd() {
     "@type": "LocalBusiness",
     "@id": `${siteConfig.url}/#business`,
     name: siteConfig.name,
-    image: `${siteConfig.url}/images/hero/hero-bg.jpg`,
+    image: remoteImages.heroBg,
     url: siteConfig.url,
     description: siteConfig.description,
     email: siteConfig.email,
