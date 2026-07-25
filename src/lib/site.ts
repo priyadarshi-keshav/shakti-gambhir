@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Shakti Gambhir | Zumba Instructor, Pilates Coach & Dance Fitness | Kolkata",
   description:
     "Premium Zumba, Pilates, dance fitness, kids programs, wedding choreography, and stage performances by Shakti Gambhir — Broadway Dance Center graduate and Kolkata’s high-energy fitness coach.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://shakti-gambhir.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://shaktigambhir.com",
   locale: "en_IN",
   city: "Kolkata",
   region: "West Bengal",

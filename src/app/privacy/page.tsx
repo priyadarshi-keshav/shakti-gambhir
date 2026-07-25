@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           phone, preferred service, date, and message — so we can respond to class and event inquiries.
         </p>
         <p>
-          Form submissions may be processed by our hosting provider (Vercel) and logged for operational
+          Form submissions may be processed by our hosting provider and logged for operational
           reliability. We do not sell personal data. Analytics, if enabled later, will be disclosed here.
         </p>
         <p>

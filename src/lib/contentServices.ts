@@ -21,7 +21,7 @@ export const services = [
     description:
       "Cardio dance workouts that feel like a night out — and deliver serious results.",
     points: ["Dance workouts", "Cardio sessions"],
-    image: "/images/gallery/dance-1.jpg",
+    image: "/images/gallery/dance-2.jpg",
   },
   {
     id: "kids",

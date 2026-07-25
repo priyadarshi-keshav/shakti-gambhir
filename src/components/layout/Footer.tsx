@@ -106,7 +106,7 @@ export function Footer() {
             </Link>
             <span aria-hidden="true" className="h-1 w-1 rounded-full bg-white/20" />
             <p>
-              Designed with <span aria-hidden="true">❤️</span>
+              Designed and Developed by Keshav <span aria-hidden="true"></span>
               <span className="sr-only">love</span>
             </p>
           </div>

@@ -113,7 +113,7 @@ export function Hero() {
         >
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] neon-ring">
             <Image
-              src="/images/shakti/shakti-portrait.jpg"
+              src="/images/shakti/shakti-original.png"
               alt="Shakti Gambhir mid-jump in Zumba gear — energetic Kolkata fitness coach"
               fill
               priority
