@@ -1,40 +1,38 @@
-import { u } from "@/lib/unsplash";
-
 export const events = [
   {
     title: "Bloom with Beats",
     subtitle: "Kids music, movement & friendship experiences",
-    image: u("photo-1533174072545-7a4b6ad7a6c3"),
+    image: "/images/events/bloom-beats.jpg",
     tag: "Community",
   },
   {
     title: "Love is in the Air",
     subtitle: "Open-air Zumba with SteppinOut — covered by TOI & IndulgExpress",
-    image: u("photo-1524368535928-5b5e00ddc76b"),
+    image: "/images/events/self-love.jpg",
     tag: "Press",
   },
   {
     title: "Aqua Zumba at The Stadel",
     subtitle: "Low-impact, high-energy poolside sessions in Salt Lake",
-    image: u("photo-1576013551627-0cc20b96c2a7"),
+    image: "/images/events/stadel.jpg",
     tag: "Studio Collab",
   },
   {
     title: "YMC Workshops",
     subtitle: "Creative movement and kids groove at Auckland Square",
-    image: u("photo-1517836357463-d25dfeac3438"),
+    image: "/images/events/ymc-workshop.jpg",
     tag: "Workshop",
   },
   {
     title: "Charity & Community Runs",
     subtitle: "Fitness for causes — virtual runs and wellness festivals",
-    image: u("photo-1552674605-db6ffd4facb5"),
+    image: "/images/events/charity.jpg",
     tag: "Impact",
   },
   {
     title: "City Stage Performances",
     subtitle: "Large-stage sets and city celebrations across Kolkata",
-    image: u("photo-1492684223066-81342ee5ff30"),
+    image: "/images/gallery/stage-1.jpg",
     tag: "Stage",
   },
 ] as const;

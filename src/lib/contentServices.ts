@@ -1,5 +1,3 @@
-import { u } from "@/lib/unsplash";
-
 export const services = [
   {
     id: "zumba",
@@ -7,7 +5,7 @@ export const services = [
     description:
       "High-energy Latin-inspired dance fitness for every level — from first-timers to advanced movers.",
     points: ["Group sessions", "Corporate wellness", "Beginner friendly", "Advanced choreography"],
-    image: u("photo-1571019614242-c5c5dee9f50b"),
+    image: "/images/gallery/zumba-1.jpg",
   },
   {
     id: "pilates",
@@ -15,7 +13,7 @@ export const services = [
     description:
       "Strength, core control, and mobility training that builds long, powerful movement patterns.",
     points: ["Strength", "Core", "Mobility"],
-    image: u("photo-1599901860904-17e6ed7083a0"),
+    image: "/images/gallery/pilates-1.jpg",
   },
   {
     id: "dance-fitness",
@@ -23,7 +21,7 @@ export const services = [
     description:
       "Cardio dance workouts that feel like a night out — and deliver serious results.",
     points: ["Dance workouts", "Cardio sessions"],
-    image: u("photo-1508700929628-666bc8bd84ea"),
+    image: "/images/gallery/dance-1.jpg",
   },
   {
     id: "kids",
@@ -31,7 +29,7 @@ export const services = [
     description:
       "Creative movement and freestyle confidence for ages 4–8 at YMC Studio, Auckland Square.",
     points: ["Creative movement", "Dance workshops", "Wednesday kids groove"],
-    image: u("photo-1503454537195-1dcabb73ffb9"),
+    image: "/images/gallery/kids-1.jpg",
   },
   {
     id: "wedding",
@@ -39,7 +37,7 @@ export const services = [
     description:
       "Show-stopping sangeet, couple dances, family routines, and bridal entries designed for your story.",
     points: ["Couple dance", "Family dance", "Sangeet choreography", "Bridal entries"],
-    image: u("photo-1519741497674-611481863552"),
+    image: "/images/gallery/wedding-1.jpg",
   },
   {
     id: "corporate",
@@ -47,7 +45,7 @@ export const services = [
     description:
       "Team fitness experiences that boost energy, culture, and connection at the workplace.",
     points: ["Team fitness", "Office wellness"],
-    image: u("photo-1552664730-d307ca884978"),
+    image: "/images/gallery/corporate-1.jpg",
   },
   {
     id: "stage-shows",
@@ -55,7 +53,7 @@ export const services = [
     description:
       "Large-stage performances and community celebrations choreographed for unforgettable energy.",
     points: ["Stage performances", "Community events", "Premium fitness events"],
-    image: u("photo-1492684223066-81342ee5ff30"),
+    image: "/images/gallery/stage-1.jpg",
   },
   {
     id: "workshops",
@@ -63,6 +61,6 @@ export const services = [
     description:
       "Fitness workshops, wellness festivals, and community engagements that leave people glowing.",
     points: ["Fitness workshops", "Community engagement", "Wellness festivals"],
-    image: u("photo-1517836357463-d25dfeac3438"),
+    image: "/images/events/ymc-workshop.jpg",
   },
 ] as const;

@@ -1,5 +1,3 @@
-import { u } from "@/lib/unsplash";
-
 export const testimonials = [
   {
     quote:
@@ -26,37 +24,37 @@ export const instagramHighlights = [
     title: "Kids Dance · YMC",
     caption: "Every Wednesday · Ages 4–8 · Auckland Square",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1503454537195-1dcabb73ffb9"),
+    image: "/images/gallery/kids-1.jpg",
   },
   {
     title: "Zumba Energy",
     caption: "Miss half the steps. Still have the best time.",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1518310383802-640c2de311b2"),
+    image: "/images/gallery/zumba-2.jpg",
   },
   {
     title: "Bloom with Beats",
     caption: "Music, movement & friendships for little stars",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1533174072545-7a4b6ad7a6c3"),
+    image: "/images/events/bloom-beats.jpg",
   },
   {
     title: "Stage Moments",
     caption: "Large-stage performances across Kolkata",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1492684223066-81342ee5ff30"),
+    image: "/images/gallery/stage-1.jpg",
   },
   {
     title: "Dance Fitness",
     caption: "Cardio that feels like celebration",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1508700929628-666bc8bd84ea"),
+    image: "/images/gallery/dance-2.jpg",
   },
   {
     title: "Pilates Focus",
     caption: "Strength · Core · Mobility",
     href: "https://www.instagram.com/ghambir/",
-    image: u("photo-1599901860904-17e6ed7083a0"),
+    image: "/images/gallery/pilates-2.jpg",
   },
 ] as const;
 
